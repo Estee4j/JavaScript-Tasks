@@ -1,0 +1,19 @@
+const prompt = require("prompt-sync")();
+
+let age = prompt("What is your age? ")
+
+if (age < 12) {
+   console.log("I am a child")
+   
+}else if (age <= 18){
+   console.log("Teenager")
+}else if(age >= 18){
+   console.log("Adult")
+ 
+}else{
+   console.log("Invalid age")
+}
+
+ let isValid = false;
+ if(age || isValid){console.log("login")}
+
